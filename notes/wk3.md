@@ -35,7 +35,7 @@ class SillyClass:
         print('this is function 2')
 ```
 * We can add **characteristics** to each class to say what it can and cannot do. A characteristic is a trait that all of the members of the class (and its children) share.
-![Characteristics](../imgs/characteristic.png)
+![Characteristics](../imgs/characteristics.png)
 * These **characteristics** can be thought of as actions or **functions** - things an object of that class can do. The **self** parameter is a way for one function to call another function in the class (and in the parent class).
 ```python
 class Animals(Things):

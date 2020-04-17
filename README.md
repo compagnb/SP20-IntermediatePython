@@ -45,6 +45,7 @@
     	* [Basic Triangle Code](codeExercises/wk2_triangle.py)
     	* [Octogon Function & For Loop Code](codeExercises/wk2_Octogon.py)
     	* [Completed Shapes Function Code](codeExercises/wk2_Shapes.py)
+        * [More Example Code with Functions](codeExercises/)
 
 #### [Week 3: Classes & Objects](notes/wk3.md)
 * Adding Objects to Classes

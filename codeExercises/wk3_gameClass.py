@@ -28,7 +28,7 @@ class teamPlayer(turtle.Turtle):
         pass
 
 invaders = [] 
-maxInvaders = 100
+maxInvaders = 10
 
 for count in range(maxInvaders):
     if count % 2 == 0:
@@ -38,4 +38,6 @@ for count in range(maxInvaders):
 
 ## infiniate Loop
 while True:
+    for invader in invaders:
+        invader.move()
     

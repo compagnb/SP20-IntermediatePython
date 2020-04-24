@@ -61,3 +61,14 @@
         * Make an instance of the Giraffe, and make the instance dance.
         * Make two instances and make them both do different things. 
         * Make two instances of the Giraffe class, that have a different number of spots (characteristics).
+    * Code:
+        * [Basic Classes](codeExercises/wk3_classes.py)
+        * [Classes With Functions](codeExercises/wk3_classesFuntion.py)
+        * [Basic Triangle Code](codeExercises/wk2_triangle.py)
+        * [Octogon Function & For Loop Code](codeExercises/wk2_Octogon.py)
+        * [Completed Shapes Function Code](codeExercises/wk2_Shapes.py)
+        * [More Example Code with Functions](codeExercises/)
+
+#### [Week 4: Classes & Objects Continued!](notes/wk4.md)
+
+

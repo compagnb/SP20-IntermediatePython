@@ -1,5 +1,32 @@
 import turtle
 import random
+maxVelocity = 10
+
+## Player
+class Player(turtle.Turtle):
+    def __init__(self, plColor, plShape):
+        turtle.Turtle.__init__(self)
+        self.up()
+        self.speed(0)
+        self.color(plColor)
+        self.shape(plShape)
+        self.velocity = 1
+    def move(self):
+        self.forward(self.velocity)
+    def turnLeft(self):
+        self.left(30)
+    def turnRight(self):
+        self.right(30)
+    def speedUp(self):
+        if self.velocity >= maxVelocity:
+            self.velocity = maxVelocity
+        else:
+            self.velocity= self.velocity +1
+    def slowdown(self):
+        if self.velocity <= 0:
+            self.velocity=0
+        else: 
+            self.velocity=self.velocity -1
 
 ## Space Invader
 class Invader(turtle.Turtle):
@@ -26,18 +53,3 @@ class teamPlayer(turtle.Turtle):
         pass
     def shoot(self):
         pass
-
-invaders = [] 
-maxInvaders = 10
-
-for count in range(maxInvaders):
-    if count % 2 == 0:
-        invaders.append(Invader('red', random.randint(-300, 300),random.randint(-300, 300)))
-    else:
-        invaders.append(Invader('blue', random.randint(-300, 300),random.randint(-300, 300)))
-
-## infiniate Loop
-while True:
-    for invader in invaders:
-        invader.move()
-    

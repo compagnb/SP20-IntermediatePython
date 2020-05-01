@@ -2,11 +2,10 @@ import turtle
 import random
 maxVelocity = 10
 
-## Border
 
-## Player
+
+##Player
 class Player(turtle.Turtle):
-    ## Player Image!!!
     def __init__(self, plColor, plShape):
         turtle.Turtle.__init__(self)
         self.up()
@@ -32,6 +31,12 @@ class Player(turtle.Turtle):
         else: 
             self.velocity=self.velocity -1
 
+
+## test
+## logan = Player("red","square")
+## while True:
+ ##   logan.move()
+        
 ## Space Invader
 class Invader(turtle.Turtle):
     def __init__(self, color, xPos, yPos):
@@ -57,3 +62,12 @@ class teamPlayer(turtle.Turtle):
         pass
     def shoot(self):
         pass
+
+##
+
+
+
+
+
+
+        

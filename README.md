@@ -70,5 +70,11 @@
         * [More Example Code with Functions](codeExercises/)
 
 #### [Week 4: Classes & Objects Continued!](notes/wk4.md)
+* Modules & Libraries
+* Constructors
+* Key Binding
+
+
+#### [Week 4: Collision Detection & Boundaries](notes/wk5.md)
 
 

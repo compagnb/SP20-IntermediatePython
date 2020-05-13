@@ -75,6 +75,12 @@
 * Key Binding
 
 
-#### [Week 4: Collision Detection & Boundaries](notes/wk5.md)
+#### [Week 5: Collision Detection & Boundaries](notes/wk5.md)
+
+#### [Week 6: More Collision Detection & Object Arrays](notes/wk6.md)
+
+#### [Week 7: More Object Arrays & Sprites](notes/wk7.md)
+
+#### [Week 8: APIs](notes/wk8.md)
 
 
